@@ -24,18 +24,19 @@
 </div>
 <!-- Jumbotron -->
 <main>
-<form id="search-form" class="form">
-  <div class="form">
-    <div class="input-group">
-      <input type="search" class="search-bar" placeholder="Enter City Name">
-      <button>
+  <div class="search-section">
+      <input type="text" class="search-bar" placeholder="Enter City Name">
+      <button class="search-button" id="searchBtn">
         Search
-      </button class="search-button" id="searchBtn">
+      </button >
     </div>
   </div>
-</form> 
 <div class="weather-container">  
-  <div class="weather-today"><h1>Todays Weather</h1></div>
+  <div class="weather-today">
+    <h1>Todays Weather</h1>
+   <div class="today">
+   </div>
+  </div>
   <div class="area">
     <h2 class="temp">22°C</h2>
     <h3 class="city">Manchester</h3>
@@ -56,6 +57,24 @@
         </div>
       </div>
    </div>
+  </div>
+ <div class="forecast">
+    <h3 class="day-forecast">Five Day <br>Forecast</h3>
+    <div class="forecast-containers">
+      <p class="day0">temp</p>
+    </div>
+    <div class="forecast-container">
+      <p class="day1">temp</p>
+    </div>
+      <div class="forecast-container">
+      <p class="day2">temp</p>
+    </div>
+    <div class="forecast-container">
+      <p class="day3">temp</p>
+    </div>
+    <div class="forecast-container">
+       <p class="day4">temp</p>
+    </div>
   </div>
 </div>
 </main>
